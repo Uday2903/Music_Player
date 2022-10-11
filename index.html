@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><img src="Spotify-symbol.jpg" alt="logo" class="logo"></li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1>Best of NCS - No Copyright sound</h1>
+            <div class="songitemcontainer">
+                <div class="songitem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="SongNames"><b>LEGION</b></span>
+                    <span class="timespan">05:34  <i id="0" class="fas songitemplay fa-play-circle"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/2.jpg" alt="2">
+                    <span class="SongNames"><b>TRAP</b></span>
+                    <span class="timespan">05:34  <i id="1" class="fas songitemplay fa-play-circle"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/3.jpg" alt="3">
+                    <span class="SongNames"><b>THEY MAD</b></span>
+                    <span class="timespan">05:34  <i id="2" class="fas songitemplay fa-play-circle"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/4.jpg" alt="4">
+                    <span class="SongNames"><b>PLUG WALK</b></span>
+                    <span class="timespan">05:34  <i id="3" class="fas songitemplay fa-play-circle"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/5.jpg" alt="5">
+                    <span class="SongNames"><b>ALONE</b></span>
+                    <span class="timespan">05:34  <i id="4" class="fas songitemplay fa-play-circle"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/6.jpg" alt="6">
+                    <span class="SongNames"><b>SAFETY DANCE</b></span>
+                    <span class="timespan">05:34  <i id="5" class="fas songitemplay fa-play-circle"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/7.jpg" alt="7">
+                    <span class="SongNames"><b>BACK IT UP</b></span>
+                    <span class="timespan">05:34  <i id="6" class="fas songitemplay fa-play-circle"></i></span>
+                </div>
+            </div>
+
+        </div>
+        <div class="banner">
+
+        </div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="" id="progressBar" value="0">
+        <div class="icons">
+            <i class="fas fa-2x fa-step-backward" id="backward"></i>
+            <i class="fas fa-2x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-2x fa-step-forward" id="forward"></i>
+        </div>
+
+        <div class="songinfo">
+            <img src="playing.gif" alt="" id="gif"> <span id="mastersongname">LEGION</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/7ff01e0489.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
